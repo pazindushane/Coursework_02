@@ -1,0 +1,112 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: #554c4c;
+}
+
+header {
+    position: relative;
+    height: 90px;
+    background: white;
+    box-shadow: 1px 2px 7px 4px #bfa0a0d6;
+}
+
+header > img {
+    padding: 10px;
+    width: 245px;
+}
+
+header > ul {
+    position: absolute;
+    font-size: 20px;
+    right: 24px;
+    top: 0;
+    list-style: none;
+}
+
+header > ul > li {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+header > ul > li > i {
+    margin-right: 5px;
+}
+
+/*---------------------------------------*/
+
+main {
+    position: relative;
+}
+
+main > nav {
+    position: absolute;
+    width: 300px;
+    background: #0c1470;
+    top: 0;
+    bottom: 0;
+}
+
+main > nav > ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+main > nav > ul > li {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main > nav > ul > li > i {
+    color: white;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+
+main > section {
+    margin-left: 300px;
+    padding: 10px;
+}
+
+main > section > div {
+    position: relative;
+    height: 300px;
+    border: 1px solid red;
+}
+
+main > section > div > img{
+    position: absolute;
+    border: 1px solid green;
+    height: 100%;
+    width: calc((100%/3)*1);
+}
+
+main > section > div > img:nth-child(1){
+    left: 0;
+}
+
+main > section > div > img:nth-child(2){
+    left: calc((100%/3)*1);
+}
+
+main > section > div > img:nth-child(3){
+    right: 0;
+}
+
+/*---------------------------------------*/
+
+footer {
+    height: 50px;
+    background: #6f6f6f;
+}
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
